@@ -1,6 +1,12 @@
+#Python script to create a timelapsed video. Does not handle the audio!
+# Requires Python and FFmpeg to be installed with the associated libraries like libavcodec/libavformat/libavutil/libavdevice
+
+#Tested using the below versions -
+#FFmpeg version r11872+debian_3:0.svn20080206-12ubuntu3, Copyright (c) 2000-2008 Fabrice Bellard, et al.
+#Python 2.5.2
+
 import os
 import sys
-import shutil
 import subprocess
 
 #Name of the input file."
